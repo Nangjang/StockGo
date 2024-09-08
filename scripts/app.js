@@ -107,7 +107,7 @@ function() {
             let e = o.word.skill[m],
                 a = e.length;
             u && (o.view.type = e.slice(0, f), f++), f === a + 1 && (u = !1), u || (o.view.type = e.slice(0, f), f--), 0 === f && (u = !0, m++), m === o.word.skill.length && (m = 0)
-        }, 500), o.goToTop = function() {
+        }, 200), o.goToTop = function() {
             window.scrollTo(0, 0)
         }, h.worldCountryList = [{
             name: "Afghanistan",
