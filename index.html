@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="stockgo.system">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Base URL for relative links -->
+    <base href="/StockGo/">
+
+    <meta name="description" content="StockGo offers a robust cloud-based inventory management system with integrated POS and advanced e-commerce features to streamline both online and offline business operations.">
+    <meta name="keywords" content="inventory management, POS solution, cloud-based platform, business automation, e-commerce management, B2B solutions">
+    <meta name="author" content="StockGo Team">
+
+    <!-- Page Title -->
+    <title>Cloud-Based Inventory & E-commerce Management | StockGo</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+    <link rel="stylesheet" href="https://nangjang.github.io/StockGo/styles/vendor.min.css">
+    <link rel="stylesheet" href="https://nangjang.github.io/StockGo/styles/app.css">
+
+    <!-- Google Analytics Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
+</head>
+
+<body class="stockgo-body">
+    <!-- Main AngularJS Application View -->
+    <div ui-view></div>
+
+    <!-- JavaScript Files -->
+    <script src="https://nangjang.github.io/StockGo/scripts/vendor.min.js"></script>
+    <script src="https://nangjang.github.io/StockGo/scripts/app.js"></script>
+</body>
+
+</html>
