@@ -6568,7 +6568,7 @@ body a:visited {
     border: none;
     background: #fff;
     color: rgba(0, 0, 0, 0.87);
-    padding: 5px 20px;
+    padding: 5px 20px !important;
 }
 
 .go-dwn {
@@ -6901,7 +6901,7 @@ symbol.infgph_sym {
 }
 
 div.dp-dwn {
-    width: 80px;
+    min-width: 80px;
     height: 45px;
     border: none;
     background: #f2f2f2;
@@ -8741,7 +8741,7 @@ div.dp-dwn-reg ul li {
         width: 250px;
     }
     .web-ad button {
-        font-size: 14px !important;
+        font-size: 12px !important;
         width: 90px;
     }
     div.dp-dwn div.txtfir {
@@ -8807,14 +8807,14 @@ div.dp-dwn-reg ul li {
     .pos_signup input {
         width: 150px;
         height: 35px;
-        padding: 5px;
+        padding: 5px !important;
         font-size: 12px;
     }
     .web-ad button {
         height: 35px;
         line-height: 35px;
         width: 70px;
-        font-size: 12px !important;
+        font-size: 9px !important;
     }
     div.dp-dwn div.txtfir {
         height: 35px;
